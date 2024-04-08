@@ -1,0 +1,96 @@
+.register-page {
+    .left-side {
+      align-items: center;
+      display: flex;
+      height: calc(100vh - 90px);
+      left: 0px;
+      max-width: 700px;
+      margin: auto;
+      top: 10px;
+      right: 0px;
+  
+      .left-side-inner-wrap {
+        margin: auto;
+        max-width: 700px;
+        padding-top: 140px;
+        width: 55%;
+  
+        .title {
+          color: #0c0739;
+          font-size: 25px;
+          font-weight: 700;
+          margin-bottom: 16px;
+          text-align: center;
+        }
+  
+        .text-block {
+          font-size: 13px;
+          font-weight: 400;
+          margin-top: 0px;
+          margin-bottom: 30px;
+          text-align: center;
+        }
+  
+        .forget-text {
+          color: #0c0739;
+          display: flex;
+          flex-direction: column;
+          font-size: 12px;
+          font-weight: 400;
+          margin-top: 20px;
+          text-align: center;
+          text-decoration: underline;
+        }
+  
+        .btn-wrap {
+          margin-top: 40px;
+          margin-bottom: 20px;
+  
+          .submit-btn {
+            background-color: #f35050;
+            border-radius: 8px;
+            border: none;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+            height: 45px;
+            margin-bottom: 1px;
+            padding: 12px 61px;
+            text-transform: uppercase;
+          }
+        }
+  
+        .sign-up {
+          color: #0c0739;
+          font-size: 13px;
+          font-weight: 400;
+          text-align: center;
+  
+          .bold-text {
+            font-weight: 600;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .right-side {
+      display: flex;
+  
+      .background-img-container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: calc(100vh - 80px);
+        position: fixed;
+        right: 0;
+        top: 190px;
+        width: 40.5%;
+      }
+    }
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
